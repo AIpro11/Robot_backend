@@ -149,3 +149,15 @@ void stopRobot() {
   frontRight.run(RELEASE);
   rearRight.run(RELEASE);
 }
+/*
+========================================
+ASSUMED CONFIGURATION
+========================================
+Main Controller : Arduino Uno
+Motor Shield    : L293D V1-compatible shield
+Motors          : Four motors (M1, M2, M3, M4)
+HC-SR04 TRIG    : A0
+HC-SR04 ECHO    : A1
+SG90 Signal     : D10
+========================================
+*/
